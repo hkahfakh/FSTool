@@ -2,14 +2,15 @@
 FSTool is a feature selection tool.\
 All feature selection algorithms are mostly based on Information theory.\
 There may be problems with the algorithm implementation, please carefully check when using it.
+
 ## Project file Introduction
-### AlgorithmData
+### 1. AlgorithmData
 
-### dataSet
+### 2. dataSet
 
-### ExperimentalData
+### 3. ExperimentalData
 The data obtained by each algorithm on the dataset.
-### featuresAlgorithm
+### 4. featuresAlgorithm
 All implemented algorithms.\
 The specific algorithm implemented is as follows:
 
@@ -43,7 +44,7 @@ The specific algorithm implemented is as follows:
 
 
 
-### util
+### 5. util
 #### classifier 
 Seven classifier call methods are implemented.
 "svm", "knn", 'gnb', "dt", "rf", "lr", "mlp"

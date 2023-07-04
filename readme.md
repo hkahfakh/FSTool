@@ -1,22 +1,22 @@
 # FSTool
 FSTool is a feature selection tool.\
-All feature selection algorithms are mostly based on Information theory.\
+Most Feature selection algorithms are based on Information theory.\
 There may be problems with the algorithm implementation, please carefully check when using it.
 
 ## Project file Introduction
-### 1. AlgorithmData
 
-### 2. dataSet
-
-### 3. ExperimentalData
+### 1. dataSet
+Save the dataset used in the experiment. \
+The dataset occupies a large amount of storage and will not be uploaded temporarily.
+### 2. ExperimentalData
 The data obtained by each algorithm on the dataset.
-### 4. featuresAlgorithm
+### 3. featuresAlgorithm
 All implemented algorithms.\
 The specific algorithm implemented is as follows:
 
 | Information theory Algorithm | paper   | 
 | ----- | --------- |
-| Cofs | name  | 
+| Cofs | Feature evaluation and selection with cooperative game theory  | 
 | CIFE | name  | 
 | Cmifs  | name     |
 | Cmim  | name     |
@@ -44,7 +44,7 @@ The specific algorithm implemented is as follows:
 
 
 
-### 5. util
+### 4. util
 #### classifier 
 Seven classifier call methods are implemented.
 "svm", "knn", 'gnb', "dt", "rf", "lr", "mlp"

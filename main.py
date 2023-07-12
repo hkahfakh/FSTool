@@ -22,6 +22,6 @@ if __name__ == '__main__':
 
     output_num = 3
 
-    algorithm_name = "fcbfcfs"
+    algorithm_name = "mrmr"
     acc_ave_list = k_fold_cross_validation(X, y, output_num, file_name, algorithm_name, di)  # 处理序列
     # write_data(file_name, algorithm_name, acc_ave_list)

@@ -89,8 +89,7 @@ def get_algorithm_name_list():
     """
     # algorithm_name_list = ["mim", "mrmr", "mifs", "drjmim", "twofs", "iwfs", "dwfs", "jmim", "ucrfs", "mrmd", "fcbf",
     #                        "fcbfcfs", "ffsg", "mdrmr", "samb"]
-    algorithm_name_list = ["mim", "mrmr", "drjmim", "iwfs", "dwfs", "jmim", "ucrfs", "mrmd", "dimrmr", "fcbf",
-                           "fcbfcfs", "ffsg", "samb"]
+    algorithm_name_list = ["mim", "mrmr", "drjmim", "iwfs", "dwfs", "jmim", "ucrfs", "mrmd", "fcbf", "fcbfcfs"]
     return algorithm_name_list
 
 

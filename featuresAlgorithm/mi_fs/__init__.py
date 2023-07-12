@@ -22,10 +22,7 @@ from .soa import SOA
 from .mrmi import MRMI
 from .cmimrmr import CmiMrmr
 from .ucrfs import UcrFs
-from .sfmim import SFMIM
 from .mrmd import MRMD
-from .ffsg import FFSG
 from .fcbfcfs import FCBFCFS
-from .dimrmr import DIMRMR
 
 from .cofs import Cofs

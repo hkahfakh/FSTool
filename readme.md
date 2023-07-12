@@ -17,30 +17,29 @@ The specific algorithm implemented is as follows:
 | Information theory Algorithm | paper   | 
 | ----- | --------- |
 | Cofs | Feature evaluation and selection with cooperative game theory  | 
-| CIFE | name  | 
-| Cmifs  | name     |
-| Cmim  | name     |
-| CmiMrmr  | name     |
-| DCSF  | name     |
-| DRGS  | name     |
-| DRJMIM  | name     |
-| DWFS  | name     |
-| FCBF  | name     |
-| FCBFCFS  | name     |
-| FFSG  | name     |
-| IWFS  | name     |
-| JMI  | name     |
-| JMIM  | name     |
-| Mic  | name     |
-| MIFS  | name     |
-| Mim  | name     |
-| MRMD  | name     |
-| MRMI  | name     |
-| mRMR  | name     |
-| RAIW  | name     |
-| SOA  | name     |
-| TwoFS  | name     |
-| UcrFs  | name     |
+| CIFE | Conditional  Infomax Learning: An Integrated Framework for Feature Extraction and Fusion  | 
+| Cmifs  | Conditional  Mutual Information-Based Feature Selection Analyzing for Synergy and  Redundancy     |
+| Cmim  | Fast  binary feature selection with conditional mutual information     |
+| CmiMrmr  | Conditional mutual information-based feature selection algorithm for maximal relevance minimal redundancy     |
+| DCSF  | Class-specific  mutual information variation for feature selection     |
+| DRGS  | Selection  of interdependent genes via dynamic relevance analysis for cancer diagnosis     |
+| DRJMIM  | Feature selection considering two types of feature  relevancy and   feature interdependency     |
+| DWFS  | Feature  selection using dynamic weights for classification     |
+| FCBF  | Efficient  feature selection via analysis of relevance and redundancy     |
+| FCBFCFS  | Feature selection via approximated Markov blankets using the CFS method     |
+| IWFS  | A novel  feature selection method considering feature interaction     |
+| JMI  | Data  visualization and feature selection: New algorithms for nongaussian data     |
+| JMIM  | Feature  selection using Joint Mutual Information Maximisation     |
+| Mic  | Detecting Novel Associations in Large Data Sets     |
+| MIFS  | Using  mutual information for selecting features in supervised neural net learning     |
+| Mim  | Feature  selection and feature extraction for text categorization     |
+| MRMD  | Feature redundancy  term variation for mutual information-based feature selection     |
+| MRMI  | A feature selection method via analysis of relevance, redundancy, and interaction     |
+| mRMR  | Feature  selection based on mutual information: Criteria of maxdependency,  max-relevance, and min-redundancy     |
+| RAIW  | A feature selection algorithm based on redundancy analysis and interaction weight     |
+| SOA  | Gait Feature Subset Selection by Mutual Information     |
+| TwoFS  | Mutual information-based method for selecting informative feature sets     |
+| UcrFs  | Feature selection considering Uncertainty Change Ratio of the class label     |
 
 
 
@@ -52,6 +51,7 @@ Seven classifier call methods are implemented.
 Data preprocessing.
 #### log_process
 Generation of experimental logs.
+![Image text](./img/log.png)
 #### metrics
 Calculation of various metrics.
 #### validation
